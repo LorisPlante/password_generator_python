@@ -29,3 +29,19 @@ win : .\venv\Scripts\pip install pyside6
 #geler les dépendances
 win : .\venv\Scripts\pip freeze > requirements.txt
 ./venv/bin/pip freeze > requirements.txt 
+
+- QtCore
+- QtWidgets
+- QtGui
+
+- il existe aussi
+    - QtSql
+    - QtCharts
+    - QtWebEngine
+    - QtMultimedia
+    - QtSvg
+    - QtLocation
+    - QtNetwork
+    - QtXml
+    - QtBluetooth
+    - QtPrint
